@@ -1,0 +1,20 @@
+
+Input lines: 1298   contracts tracked: 40   dead letters: 8
+Status mix: {'ACTIVE': 13, 'ARREARS': 11, 'MATURED': 13, 'TERMINATED': 3}
+
+Outstanding principal by holder (live contracts), CHF
+  BANK-LEMAN         11,536.47
+  FUND-JURA         124,198.47
+  FUND-RHEIN        402,285.07
+  SPV-ALPINE-1       37,880.19
+  SPV-ALPINE-2      151,662.40
+
+Dead letters (sample):
+  None       parse: Expecting property name enclosed in double quotes: line 1 column 2 (char 
+  LEASE-0011 Rejected: amount 1.00 != scheduled 337.46
+  None       parse: Expecting property name enclosed in double quotes: line 1 column 2 (char 
+  None       parse: Expecting property name enclosed in double quotes: line 1 column 2 (char 
+  LEASE-0022 Rejected: amount 1.00 != scheduled 1015.81
+  LEASE-0009 Rejected: from_holder SOMEONE-ELSE is not current holder FUND-RHEIN
+
+Reconciliation vs independent reference fold: 0 differences
